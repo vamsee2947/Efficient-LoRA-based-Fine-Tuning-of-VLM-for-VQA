@@ -1,0 +1,12 @@
+model:
+  backbone: "Salesforce/blip2-opt-2.7b"
+  lora:
+    r: 8
+    alpha: 8
+    dropout: 0.1
+train:
+  batch_size: 4
+  grad_accum: 8
+  use_fp16: true
+  epochs: 5
+  data_dir: "data/vqa_v2_10k"
