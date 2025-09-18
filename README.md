@@ -11,4 +11,22 @@ It supports:
 ## Setup
 
 Install dependencies:
+pip install -r requirements.txt
+
+
+## Usage
+
+- Launch training with your dataset using `scripts/train.py` and config files
+- Run inference and demos in `notebooks/vqa_demo.ipynb`
+- Upload your images and ask questions interactively in the notebook
+
+## Repository structure
+
+- `scripts/train.py`: Main training script with LoRA integration
+- `configs/vqa_lora.yaml`: Training and model configuration
+- `notebooks/vqa_demo.ipynb`: Colab demo notebook for VQA inference
+- `utils/preprocess.py`: Utilities for data preprocessing
+- `requirements.txt`: Python dependencies list
+
+---
 
